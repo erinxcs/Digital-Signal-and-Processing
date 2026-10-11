@@ -1,5 +1,6 @@
-/Activity_01
-/Activity_02
-/Activity_03
-/Activity_04
-/Activity_05
+# Python and Jupyter generated files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
