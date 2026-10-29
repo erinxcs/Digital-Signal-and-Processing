@@ -115,7 +115,12 @@ are preserved.
 
 ## Setup and Execution
 
-1. Open the **CPE20_Bonaobra** folder in VS Code.
+1. Clone the repository and open the project folder in VS Code:
+
+   ```powershell
+   git clone https://github.com/erinxcs/Digital-Signal-and-Processing.git
+   ```
+
 2. Install Python 3.10 or newer and the VS Code Python and Jupyter extensions.
    Activity 2 also requires a Python installation with Tkinter support.
 3. Create a virtual environment and install the project dependencies:
@@ -159,6 +164,3 @@ conditions, and different currency series can affect segmentation and color
 classification. Plate recognition assumes frontal images in which the plate fills
 most of the frame; full vehicle scenes require an additional localization step.
 OCR may confuse similar letters and digits, so visual verification remains necessary.
-
-Execution results and validation details are documented in
-[TEST_REPORT.md](TEST_REPORT.md).
