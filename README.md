@@ -12,6 +12,19 @@ and transforming numerical sequences to counting objects, classifying Philippine
 banknotes, and recognizing plate numbers. Python, NumPy, Matplotlib, OpenCV, and
 Tesseract OCR provide the computational and visualization tools used in the project.
 
+## Project Structure
+
+| Path | Contents |
+| --- | --- |
+| `Activity_01/` | Discrete-time signals notebook |
+| `Activity_02/` | Tkinter sequence operations visualizer |
+| `Activity_03/` | Object counting notebook and `coins.png` |
+| `Activity_04/` | Banknote recognition notebook and `bills.png` |
+| `Activity_05/` | Plate recognition notebook and six plate images |
+| `TEST/` | Experimental notebooks and sample images |
+| `docs/` | Supporting documents |
+| `requirements.txt` | Python dependencies |
+
 ## Activity 1: Discrete-Time Signals and Basic Operations
 
 **Notebook:** [act01.ipynb](Activity_01/act01.ipynb)
