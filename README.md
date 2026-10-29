@@ -12,6 +12,19 @@ and transforming numerical sequences to counting objects, classifying Philippine
 banknotes, and recognizing plate numbers. Python, NumPy, Matplotlib, OpenCV, and
 Tesseract OCR provide the computational and visualization tools used in the project.
 
+## Project Structure
+
+| Path | Contents |
+| --- | --- |
+| `Activity_01/` | Discrete-time signals notebook |
+| `Activity_02/` | Tkinter sequence operations visualizer |
+| `Activity_03/` | Object counting notebook and `coins.png` |
+| `Activity_04/` | Banknote recognition notebook and `bills.png` |
+| `Activity_05/` | Plate recognition notebook and six plate images |
+| `TEST/` | Experimental notebooks and sample images |
+| `docs/` | Supporting documents |
+| `requirements.txt` | Python dependencies |
+
 ## Activity 1: Discrete-Time Signals and Basic Operations
 
 **Notebook:** [act01.ipynb](Activity_01/act01.ipynb)
@@ -115,7 +128,12 @@ are preserved.
 
 ## Setup and Execution
 
-1. Open the **CPE20_Bonaobra** folder in VS Code.
+1. Clone the repository and open the project folder in VS Code:
+
+   ```powershell
+   git clone https://github.com/erinxcs/Digital-Signal-and-Processing.git
+   ```
+
 2. Install Python 3.10 or newer and the VS Code Python and Jupyter extensions.
    Activity 2 also requires a Python installation with Tkinter support.
 3. Create a virtual environment and install the project dependencies:
@@ -159,6 +177,3 @@ conditions, and different currency series can affect segmentation and color
 classification. Plate recognition assumes frontal images in which the plate fills
 most of the frame; full vehicle scenes require an additional localization step.
 OCR may confuse similar letters and digits, so visual verification remains necessary.
-
-Execution results and validation details are documented in
-[TEST_REPORT.md](TEST_REPORT.md).
